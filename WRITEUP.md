@@ -1,6 +1,6 @@
 # Biography RAG: write-up
 
-**Live site:** _(added after deploy)_
+**Live site:** https://biography-rag-8zrd.onrender.com/ (free Render plan: the first visit after 15 idle minutes takes about 50 seconds to wake up)
 **Repo:** https://github.com/eliTouro/biography_rag
 **The story the app generated:** [`samples/franklin/story.md`](samples/franklin/story.md)
 **Logs:** [`samples/franklin/log.md`](samples/franklin/log.md) / [`log.json`](samples/franklin/log.json)
@@ -35,6 +35,13 @@ The details are in [`REVIEW.md`](samples/franklin/REVIEW.md). I ran the Franklin
   - One sentence ("he lived in Philadelphia") is flagged because its chunk doesn't quite say that.
   - **The app missed one error, which I found by hand:** it merged Franklin's two sons into one sentence. This is a misreading of the source, not training data, and REVIEW.md flags it.
 - **Canary:** "On which US banknote does Franklin's portrait appear?" ($100 bill) and "When did the Benjamin Franklin Bridge open?" (1926) are true but not in the corpus; I checked by searching all 7 books. Both came back **"Not in the sources."** A control question that *is* in the corpus ("Where was he born?") was answered with citations.
+
+**Live check after deploy:** on the live site I created a collection for a made-up person and uploaded a one-page biography. I then ran the story and a canary question, and deleted the test collection afterwards.
+- The story cited every sentence.
+- The four topics the page doesn't cover (a funny anecdote, a failure, children, rivals) came back "Not in the sources."
+- The canary came back "Not in the sources."
+
+This shows the app isn't tied to Franklin or to a big corpus.
 
 ## Corpus
 

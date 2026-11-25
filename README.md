@@ -2,7 +2,7 @@
 
 Upload a pile of pages about one person, and the app writes that person's story **only from snippets it retrieves from those pages**. Every sentence carries the IDs of the chunks it came from. A verifier flags anything the sources don't support, which means it probably came from the model's own training data.
 
-- **Live site:** see `WRITEUP.md` for the URL
+- **Live site:** https://biography-rag-8zrd.onrender.com/
 - **Sample output (Benjamin Franklin, about 1,000 pages):** [`samples/franklin/story.md`](samples/franklin/story.md), logs in [`samples/franklin/log.md`](samples/franklin/log.md), and my review of the logs in [`samples/franklin/REVIEW.md`](samples/franklin/REVIEW.md)
 - **Write-up:** [`WRITEUP.md`](WRITEUP.md)
 
