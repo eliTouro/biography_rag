@@ -1,0 +1,1293 @@
+{
+ "run": {
+  "id": "r5d81c0a4",
+  "collectionId": "c8f3a21e",
+  "kind": "story",
+  "question": null,
+  "status": "done",
+  "progress": {
+   "stage": "done",
+   "questionsDone": 20,
+   "questionsTotal": 20
+  },
+  "result": {
+   "person": "Benjamin Franklin",
+   "questions": [
+    {
+     "n": 1,
+     "question": "Where and when was Benjamin Franklin born?",
+     "topic": "Birth",
+     "found": true,
+     "answer": "Born in Boston on January 17, 1706, in a house on Milk Street [D02-C0011].",
+     "facts": [
+      {
+       "fact": "Born in Boston on January 17, 1706",
+       "chunkIds": [
+        "D02-C0011"
+       ],
+       "quote": "born in Boston on January 17, 1706",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D02-C0011",
+       "rrf": 0.0325,
+       "vecRank": 1,
+       "ftsRank": 2
+      },
+      {
+       "id": "D03-C0017",
+       "rrf": 0.0315,
+       "vecRank": 3,
+       "ftsRank": 4
+      },
+      {
+       "id": "D01-C0003",
+       "rrf": 0.0161,
+       "vecRank": 2,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "question": "Where were Benjamin Franklin's parents from, and what did they do?",
+     "topic": "Parents",
+     "found": true,
+     "answer": "His father Josiah came from Ecton, Northamptonshire, and worked as a tallow chandler and soap boiler; his mother was Abiah Folger of Nantucket [D01-C0005].",
+     "facts": [
+      {
+       "fact": "Father Josiah from Ecton, a tallow chandler and soap boiler",
+       "chunkIds": [
+        "D01-C0005"
+       ],
+       "quote": "tallow chandler and soap boiler",
+       "quoteCheck": "exact"
+      },
+      {
+       "fact": "Mother Abiah Folger, daughter of Peter Folger of Nantucket",
+       "chunkIds": [
+        "D01-C0005"
+       ],
+       "quote": "Abiah Folger, daughter of Peter Folger",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D02-C0011",
+       "rrf": 0.0323,
+       "vecRank": 3,
+       "ftsRank": 1
+      },
+      {
+       "id": "D01-C0003",
+       "rrf": 0.0318,
+       "vecRank": 2,
+       "ftsRank": 4
+      },
+      {
+       "id": "D01-C0005",
+       "rrf": 0.0164,
+       "vecRank": 1,
+       "ftsRank": null
+      },
+      {
+       "id": "D03-C0017",
+       "rrf": 0.0156,
+       "vecRank": 4,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "question": "What was Benjamin Franklin's childhood like?",
+     "topic": "Childhood",
+     "found": true,
+     "answer": "He grew up near the water, swam and handled boats, read whatever he could find, and once built a wharf from stolen stones [D01-C0008] [D02-C0033].",
+     "facts": [
+      {
+       "fact": "Learned early to swim and manage boats",
+       "chunkIds": [
+        "D01-C0008"
+       ],
+       "quote": "learnt early to swim well, and to manage boats",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D02-C0033",
+       "rrf": 0.0325,
+       "vecRank": 2,
+       "ftsRank": 1
+      },
+      {
+       "id": "D01-C0008",
+       "rrf": 0.032,
+       "vecRank": 1,
+       "ftsRank": 4
+      },
+      {
+       "id": "D01-C0012",
+       "rrf": 0.0315,
+       "vecRank": 4,
+       "ftsRank": 3
+      },
+      {
+       "id": "D01-C0007",
+       "rrf": 0.0159,
+       "vecRank": 3,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "question": "Who were Benjamin Franklin's siblings?",
+     "topic": "Siblings",
+     "found": true,
+     "answer": "He was the youngest son of seventeen children; his brother James was a printer and his sister Jane Mecom outlived the rest [D01-C0003] [D04-C0012].",
+     "facts": [
+      {
+       "fact": "Youngest son of seventeen children",
+       "chunkIds": [
+        "D01-C0003"
+       ],
+       "quote": "I was the youngest son",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D01-C0003",
+       "rrf": 0.0328,
+       "vecRank": 1,
+       "ftsRank": 1
+      },
+      {
+       "id": "D01-C0012",
+       "rrf": 0.0317,
+       "vecRank": 3,
+       "ftsRank": 3
+      },
+      {
+       "id": "D02-C0011",
+       "rrf": 0.0313,
+       "vecRank": 4,
+       "ftsRank": 4
+      },
+      {
+       "id": "D04-C0012",
+       "rrf": 0.0161,
+       "vecRank": 2,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "question": "What schooling or training did Benjamin Franklin have?",
+     "topic": "Schooling",
+     "found": true,
+     "answer": "Less than a year at the grammar school, then a writing and arithmetic school under George Brownell; home at ten [D01-C0007].",
+     "facts": [
+      {
+       "fact": "Grammar school at eight, not quite one year",
+       "chunkIds": [
+        "D01-C0007"
+       ],
+       "quote": "at the grammar school not quite one year",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D02-C0033",
+       "rrf": 0.032,
+       "vecRank": 2,
+       "ftsRank": 3
+      },
+      {
+       "id": "D01-C0012",
+       "rrf": 0.0315,
+       "vecRank": 3,
+       "ftsRank": 4
+      },
+      {
+       "id": "D01-C0007",
+       "rrf": 0.0164,
+       "vecRank": 1,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "question": "What was Benjamin Franklin's first job?",
+     "topic": "First job",
+     "found": true,
+     "answer": "He helped in his father’s chandlery from age ten, then was apprenticed at twelve to his brother James, a printer [D01-C0007] [D01-C0012].",
+     "facts": [
+      {
+       "fact": "Signed indentures to his brother at twelve",
+       "chunkIds": [
+        "D01-C0012"
+       ],
+       "quote": "signed the indentures when I was yet but twelve years old",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D01-C0012",
+       "rrf": 0.0323,
+       "vecRank": 1,
+       "ftsRank": 3
+      },
+      {
+       "id": "D01-C0007",
+       "rrf": 0.0318,
+       "vecRank": 2,
+       "ftsRank": 4
+      },
+      {
+       "id": "D03-C0251",
+       "rrf": 0.0159,
+       "vecRank": 3,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "question": "An adventurous story from Benjamin Franklin's life.",
+     "topic": "Adventure",
+     "found": true,
+     "answer": "At seventeen he ran away by sea to New York and then walked and sailed on to Philadelphia [D01-C0019] [D01-C0024] [D01-C0027].",
+     "facts": [
+      {
+       "fact": "Ran away to New York at seventeen",
+       "chunkIds": [
+        "D01-C0019"
+       ],
+       "quote": "in three days I found myself in New York",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D01-C0019",
+       "rrf": 0.032,
+       "vecRank": 1,
+       "ftsRank": 4
+      },
+      {
+       "id": "D01-C0027",
+       "rrf": 0.032,
+       "vecRank": 3,
+       "ftsRank": 2
+      },
+      {
+       "id": "D03-C0251",
+       "rrf": 0.0315,
+       "vecRank": 4,
+       "ftsRank": 3
+      },
+      {
+       "id": "D01-C0024",
+       "rrf": 0.0161,
+       "vecRank": 2,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "question": "A scary or dangerous moment Benjamin Franklin faced.",
+     "topic": "Danger",
+     "found": true,
+     "answer": "Flying a kite into a thunder cloud in 1752; Richmann died repeating a similar experiment [D02-C0214].",
+     "facts": [
+      {
+       "fact": "Richmann struck dead repeating the experiment",
+       "chunkIds": [
+        "D02-C0214"
+       ],
+       "quote": "was struck dead by a discharge from his apparatus",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D01-C0024",
+       "rrf": 0.0323,
+       "vecRank": 2,
+       "ftsRank": 2
+      },
+      {
+       "id": "D02-C0219",
+       "rrf": 0.0317,
+       "vecRank": 3,
+       "ftsRank": 3
+      },
+      {
+       "id": "D02-C0214",
+       "rrf": 0.0164,
+       "vecRank": 1,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "question": "A funny anecdote about Benjamin Franklin.",
+     "topic": "Humor",
+     "found": false,
+     "answer": "Not in the sources.",
+     "facts": [],
+     "rejected": [
+      {
+       "fact": "Franklin joked that the turkey should be the national bird",
+       "chunkIds": [
+        "D03-C0098"
+       ],
+       "quote": "the turkey is a much more respectable bird",
+       "reason": "quote-not-found"
+      }
+     ],
+     "retrieved": [
+      {
+       "id": "D01-C0027",
+       "rrf": 0.0325,
+       "vecRank": 1,
+       "ftsRank": 2
+      },
+      {
+       "id": "D03-C0098",
+       "rrf": 0.032,
+       "vecRank": 2,
+       "ftsRank": 3
+      },
+      {
+       "id": "D02-C0033",
+       "rrf": 0.0159,
+       "vecRank": 3,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "question": "A time Benjamin Franklin failed or made a serious mistake.",
+     "topic": "Failure",
+     "found": true,
+     "answer": "He relied on Governor Keith’s promised letters of credit, and none were sent; he also spent money Vernon had entrusted to him [D01-C0041].",
+     "facts": [
+      {
+       "fact": "Keith sent no letters",
+       "chunkIds": [
+        "D01-C0041"
+       ],
+       "quote": "I found none upon which my name was put",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D01-C0041",
+       "rrf": 0.0323,
+       "vecRank": 1,
+       "ftsRank": 3
+      },
+      {
+       "id": "D01-C0007",
+       "rrf": 0.0323,
+       "vecRank": 3,
+       "ftsRank": 1
+      },
+      {
+       "id": "D03-C0251",
+       "rrf": 0.0161,
+       "vecRank": 2,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "question": "The hardest thing Benjamin Franklin went through.",
+     "topic": "Hardship",
+     "found": true,
+     "answer": "The death of his four-year-old son Francis from smallpox in 1736 [D01-C0078].",
+     "facts": [
+      {
+       "fact": "Lost a son of four to smallpox in 1736",
+       "chunkIds": [
+        "D01-C0078"
+       ],
+       "quote": "In 1736 I lost one of my sons",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D02-C0102",
+       "rrf": 0.0325,
+       "vecRank": 2,
+       "ftsRank": 1
+      },
+      {
+       "id": "D02-C0611",
+       "rrf": 0.032,
+       "vecRank": 3,
+       "ftsRank": 2
+      },
+      {
+       "id": "D01-C0078",
+       "rrf": 0.0164,
+       "vecRank": 1,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "question": "Who did Benjamin Franklin marry, and what was that relationship like?",
+     "topic": "Marriage",
+     "found": true,
+     "answer": "Deborah Read, on September 1, 1730; he called her a good and faithful helpmate [D01-C0062].",
+     "facts": [
+      {
+       "fact": "Married Deborah Read September 1, 1730",
+       "chunkIds": [
+        "D01-C0062"
+       ],
+       "quote": "I took her to wife, September 1st, 1730",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D01-C0062",
+       "rrf": 0.0328,
+       "vecRank": 1,
+       "ftsRank": 1
+      },
+      {
+       "id": "D01-C0027",
+       "rrf": 0.0323,
+       "vecRank": 2,
+       "ftsRank": 2
+      },
+      {
+       "id": "D02-C0611",
+       "rrf": 0.0159,
+       "vecRank": 3,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 13,
+     "question": "What about Benjamin Franklin's children?",
+     "topic": "Children",
+     "found": true,
+     "answer": "William (born about 1730), Francis (died 1736) and Sarah, called Sally (born 1743) [D02-C0102] [D01-C0078].",
+     "facts": [
+      {
+       "fact": "Daughter Sarah born 1743",
+       "chunkIds": [
+        "D02-C0102"
+       ],
+       "quote": "A daughter, Sarah, called Sally, was born in 1743",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D02-C0102",
+       "rrf": 0.0325,
+       "vecRank": 1,
+       "ftsRank": 2
+      },
+      {
+       "id": "D01-C0062",
+       "rrf": 0.0315,
+       "vecRank": 3,
+       "ftsRank": 4
+      },
+      {
+       "id": "D01-C0078",
+       "rrf": 0.0161,
+       "vecRank": 2,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "question": "Who were Benjamin Franklin's closest friends or mentors?",
+     "topic": "Friends & mentors",
+     "found": true,
+     "answer": "His friends formed the Junto, a club of mutual improvement that met on Friday evenings [D01-C0066].",
+     "facts": [
+      {
+       "fact": "Formed the Junto",
+       "chunkIds": [
+        "D01-C0066"
+       ],
+       "quote": "which we called the Junto",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D03-C0251",
+       "rrf": 0.0323,
+       "vecRank": 3,
+       "ftsRank": 1
+      },
+      {
+       "id": "D03-C0142",
+       "rrf": 0.0318,
+       "vecRank": 2,
+       "ftsRank": 4
+      },
+      {
+       "id": "D01-C0066",
+       "rrf": 0.0164,
+       "vecRank": 1,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 15,
+     "question": "Who were Benjamin Franklin's rivals or enemies?",
+     "topic": "Rivals",
+     "found": false,
+     "answer": "Not in the sources.",
+     "facts": [],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D02-C0102",
+       "rrf": 0.0325,
+       "vecRank": 2,
+       "ftsRank": 1
+      },
+      {
+       "id": "D03-C0251",
+       "rrf": 0.032,
+       "vecRank": 1,
+       "ftsRank": 4
+      },
+      {
+       "id": "D02-C0402",
+       "rrf": 0.0159,
+       "vecRank": 3,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 16,
+     "question": "What is Benjamin Franklin best known for?",
+     "topic": "Best known for",
+     "found": true,
+     "answer": "Poor Richard’s Almanack, his electrical experiments, and his diplomacy in France [D03-C0098] [D02-C0214] [D02-C0402].",
+     "facts": [
+      {
+       "fact": "Almanack proverbs passed into common speech",
+       "chunkIds": [
+        "D03-C0098"
+       ],
+       "quote": "passed into common speech",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D03-C0098",
+       "rrf": 0.0328,
+       "vecRank": 1,
+       "ftsRank": 1
+      },
+      {
+       "id": "D02-C0402",
+       "rrf": 0.0317,
+       "vecRank": 3,
+       "ftsRank": 3
+      },
+      {
+       "id": "D04-C0077",
+       "rrf": 0.0313,
+       "vecRank": 4,
+       "ftsRank": 4
+      },
+      {
+       "id": "D02-C0214",
+       "rrf": 0.0161,
+       "vecRank": 2,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 17,
+     "question": "Something Benjamin Franklin made, invented or discovered.",
+     "topic": "Creations",
+     "found": true,
+     "answer": "The lightning rod, the Pennsylvania fireplace, and spectacles with split lenses [D02-C0219] [D04-C0031].",
+     "facts": [
+      {
+       "fact": "Lightning rod, no patent",
+       "chunkIds": [
+        "D02-C0219"
+       ],
+       "quote": "declined to take out any patent",
+       "quoteCheck": "exact"
+      },
+      {
+       "fact": "Split-lens spectacles",
+       "chunkIds": [
+        "D04-C0031"
+       ],
+       "quote": "half of each kind associated in the same circle",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D04-C0031",
+       "rrf": 0.032,
+       "vecRank": 2,
+       "ftsRank": 3
+      },
+      {
+       "id": "D02-C0214",
+       "rrf": 0.0315,
+       "vecRank": 3,
+       "ftsRank": 4
+      },
+      {
+       "id": "D02-C0219",
+       "rrf": 0.0164,
+       "vecRank": 1,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 18,
+     "question": "Where did Benjamin Franklin travel or live?",
+     "topic": "Travels & homes",
+     "found": true,
+     "answer": "Boston, Philadelphia, London from 1757 to 1775, and France from 1776 to 1785 [D02-C0402].",
+     "facts": [
+      {
+       "fact": "London 1757 to 1775",
+       "chunkIds": [
+        "D02-C0402"
+       ],
+       "quote": "From 1757 to 1775",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D02-C0402",
+       "rrf": 0.0323,
+       "vecRank": 1,
+       "ftsRank": 3
+      },
+      {
+       "id": "D01-C0041",
+       "rrf": 0.0318,
+       "vecRank": 2,
+       "ftsRank": 4
+      },
+      {
+       "id": "D04-C0031",
+       "rrf": 0.0159,
+       "vecRank": 3,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 19,
+     "question": "A habit, hobby or quirk of Benjamin Franklin.",
+     "topic": "Habits & quirks",
+     "found": false,
+     "answer": "Not in the sources.",
+     "facts": [],
+     "rejected": [
+      {
+       "fact": "Took daily air baths",
+       "chunkIds": [
+        "D01-C0012"
+       ],
+       "quote": "air bath every morning",
+       "reason": "quote-not-found"
+      }
+     ],
+     "retrieved": [
+      {
+       "id": "D02-C0033",
+       "rrf": 0.032,
+       "vecRank": 1,
+       "ftsRank": 4
+      },
+      {
+       "id": "D01-C0012",
+       "rrf": 0.032,
+       "vecRank": 3,
+       "ftsRank": 2
+      },
+      {
+       "id": "D01-C0008",
+       "rrf": 0.0161,
+       "vecRank": 2,
+       "ftsRank": null
+      }
+     ]
+    },
+    {
+     "n": 20,
+     "question": "How did Benjamin Franklin die, and how is Benjamin Franklin remembered?",
+     "topic": "Death & legacy",
+     "found": true,
+     "answer": "He died in Philadelphia on April 17, 1790, aged eighty-four; about twenty thousand people watched the funeral [D02-C0611].",
+     "facts": [
+      {
+       "fact": "Died April 17, 1790",
+       "chunkIds": [
+        "D02-C0611"
+       ],
+       "quote": "He died in Philadelphia on April 17, 1790",
+       "quoteCheck": "exact"
+      }
+     ],
+     "rejected": [],
+     "retrieved": [
+      {
+       "id": "D03-C0098",
+       "rrf": 0.0323,
+       "vecRank": 2,
+       "ftsRank": 2
+      },
+      {
+       "id": "D03-C0142",
+       "rrf": 0.0317,
+       "vecRank": 3,
+       "ftsRank": 3
+      },
+      {
+       "id": "D02-C0611",
+       "rrf": 0.0164,
+       "vecRank": 1,
+       "ftsRank": null
+      }
+     ]
+    }
+   ],
+   "story": {
+    "title": "Benjamin Franklin, from the sources",
+    "sections": [
+     {
+      "heading": "Boston, 1706",
+      "sentences": [
+       {
+        "text": "Benjamin Franklin was born in Boston on January 17, 1706, in a house on Milk Street, and was baptized at the Old South Church the same day.",
+        "chunkIds": [
+         "D02-C0011"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "His father, Josiah Franklin, had come from Ecton in Northamptonshire around 1682 and made his living in Boston as a tallow chandler and soap boiler.",
+        "chunkIds": [
+         "D01-C0005",
+         "D01-C0003"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "His mother, Abiah Folger, was the daughter of Peter Folger of Nantucket.",
+        "chunkIds": [
+         "D01-C0005"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "Josiah had seventeen children by two wives, and Benjamin was the youngest son.",
+        "chunkIds": [
+         "D01-C0003"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "As a boy he lived close to the water, learned early to swim and handle boats, and once led his friends in building a little wharf out of stones meant for a new house.",
+        "chunkIds": [
+         "D01-C0008"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "He spent less than a year at the grammar school and a short time at a writing school, where he failed at arithmetic, and at ten he was taken home to help in the shop.",
+        "chunkIds": [
+         "D01-C0007"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       }
+      ]
+     },
+     {
+      "heading": "The printer’s apprentice",
+      "sentences": [
+       {
+        "text": "At twelve he was bound as an apprentice to his brother James, a printer, and often sat up most of the night reading.",
+        "chunkIds": [
+         "D01-C0012"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "He disguised his hand and slipped an anonymous paper under the printing-house door at night, and it was printed the next morning.",
+        "chunkIds": [
+         "D01-C0019"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "After quarrels and beatings, he sold some of his books and left secretly by sea, reaching New York at seventeen.",
+        "chunkIds": [
+         "D01-C0019",
+         "D01-C0024"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "On the way to Amboy a squall tore the sails, and he pulled a drunken Dutchman back aboard by his hair after the man fell into the water.",
+        "chunkIds": [
+         "D01-C0024"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "He walked up Market Street in Philadelphia with three great puffy rolls, one under each arm and eating the third, while his future wife watched from her door and thought he looked ridiculous.",
+        "chunkIds": [
+         "D01-C0027"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "Governor William Keith promised him a letter of credit for a press, but on the voyage to London he found that no letters had been sent.",
+        "chunkIds": [
+         "D01-C0041"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       }
+      ]
+     },
+     {
+      "heading": "Philadelphia",
+      "sentences": [
+       {
+        "text": "He married Deborah Read on September 1, 1730, and wrote that she proved a good and faithful helpmate.",
+        "chunkIds": [
+         "D01-C0062"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "His son William, born about 1730, became royal governor of New Jersey, and his daughter Sarah, called Sally, was born in 1743.",
+        "chunkIds": [
+         "D02-C0102"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "Their son Francis died of smallpox in 1736 at the age of four, and Franklin bitterly regretted that he had not had the boy inoculated.",
+        "chunkIds": [
+         "D01-C0078"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "He gathered his friends into a club for mutual improvement called the Junto, which met on Friday evenings and grew into the Library Company of 1731.",
+        "chunkIds": [
+         "D01-C0066",
+         "D03-C0142"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       }
+      ]
+     },
+     {
+      "heading": "Lightning",
+      "sentences": [
+       {
+        "text": "In June 1752 he raised a silk kite into a thunder cloud and drew a strong spark from a key tied to the wet string.",
+        "chunkIds": [
+         "D02-C0214"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "The danger was real: the next summer Professor Richmann of St. Petersburg was killed while repeating a similar experiment.",
+        "chunkIds": [
+         "D02-C0214"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "The discovery led to the lightning rod, and, as with his fireplace of 1742, he refused to take out a patent.",
+        "chunkIds": [
+         "D02-C0219"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "He invented bifocals while living in Paris and described them in a letter of 1784.",
+        "chunkIds": [
+         "D04-C0031"
+        ],
+        "support": "partly",
+        "flags": [
+         "judge-partly"
+        ],
+        "note": "The cited letter, sent from Passy in 1785, describes cutting two pairs of lenses into one frame. It does not say he invented them in Paris, and the year differs."
+       },
+       {
+        "text": "Poor Richard’s Almanack, which he kept up for twenty-five years, carried his proverbs into common speech.",
+        "chunkIds": [
+         "D03-C0098"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       }
+      ]
+     },
+     {
+      "heading": "Abroad",
+      "sentences": [
+       {
+        "text": "From 1757 to 1775 he lived mostly in London as an agent for Pennsylvania and, later, other colonies.",
+        "chunkIds": [
+         "D02-C0402"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "In France from 1776 to 1785 he secured the treaty of alliance of 1778 and helped negotiate the peace of 1783, and the French adored him in his plain coat and fur cap.",
+        "chunkIds": [
+         "D02-C0402"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "At the constitutional convention he urged every doubting member to doubt a little of his own infallibility and sign.",
+        "chunkIds": [
+         "D04-C0077"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       }
+      ]
+     },
+     {
+      "heading": "Last years",
+      "sentences": [
+       {
+        "text": "Franklin died in Philadelphia on April 17, 1790, at eighty-four, and about twenty thousand people gathered for his funeral before he was buried beside his wife at Christ Church.",
+        "chunkIds": [
+         "D02-C0611"
+        ],
+        "support": "yes",
+        "flags": [],
+        "note": ""
+       },
+       {
+        "text": "He remains one of the most quoted Americans of his century.",
+        "chunkIds": [],
+        "support": "no",
+        "flags": [
+         "no-citation"
+        ],
+        "note": "No retrieved passage was cited for this sentence."
+       }
+      ]
+     }
+    ]
+   },
+   "notInSources": [
+    9,
+    15,
+    19
+   ],
+   "review": {
+    "sentences": 26,
+    "cited": 25,
+    "flagged": 2,
+    "unsupported": 1,
+    "coverage": {
+     "found": 17,
+     "total": 20
+    }
+   },
+   "chunks": {
+    "D01-C0003": {
+     "id": "D01-C0003",
+     "docId": "D01",
+     "filename": "gutenberg-franklin-autobiography.txt",
+     "page": 3,
+     "text": "My father married young, and carried his wife with three children into New England, about 1682. By the same wife he had four children more born there, and by a second wife ten more, in all seventeen; of which I remember thirteen sitting at one time at his table, who all grew up to be men and women, and married. I was the youngest son, and the youngest child but two, and was born in Boston, New England."
+    },
+    "D01-C0005": {
+     "id": "D01-C0005",
+     "docId": "D01",
+     "filename": "gutenberg-franklin-autobiography.txt",
+     "page": 4,
+     "text": "Josiah, my father, was from Ecton, in Northamptonshire, where the family had lived on a freehold of about thirty acres for three hundred years. In Boston he took up the business of a tallow chandler and soap boiler, a trade he had not been bred to. My mother, his second wife, was Abiah Folger, daughter of Peter Folger, one of the first settlers of New England, of Nantucket."
+    },
+    "D01-C0007": {
+     "id": "D01-C0007",
+     "docId": "D01",
+     "filename": "gutenberg-franklin-autobiography.txt",
+     "page": 6,
+     "text": "I was put to the grammar school at eight years of age, my father intending to devote me, as the tithe of his sons, to the service of the Church. I continued, however, at the grammar school not quite one year. I was then sent to a school for writing and arithmetic, kept by Mr. George Brownell. Under him I acquired fair writing pretty soon, but I failed in the arithmetic, and made no progress in it. At ten years old I was taken home to assist my father in his business."
+    },
+    "D01-C0008": {
+     "id": "D01-C0008",
+     "docId": "D01",
+     "filename": "gutenberg-franklin-autobiography.txt",
+     "page": 7,
+     "text": "Living near the water, I was much in and about it, learnt early to swim well, and to manage boats. There was a salt marsh that bounded part of the mill pond, on the edge of which we used to stand to fish. I proposed building a wharf there, and showed my comrades a large heap of stones intended for a new house near the marsh. We worked diligently like so many emmets, and built our little wharf. The next morning the workmen were surprised at missing the stones; we were discovered and corrected by our fathers, and though I pleaded the usefulness of the work, mine convinced me that nothing was useful which was not honest."
+    },
+    "D01-C0012": {
+     "id": "D01-C0012",
+     "docId": "D01",
+     "filename": "gutenberg-franklin-autobiography.txt",
+     "page": 11,
+     "text": "In 1717 my brother James returned from England with a press and letters to set up his business in Boston. I liked it much better than that of my father, but still had a hankering for the sea. To prevent the apprehended effect of such an inclination, my father was impatient to have me bound to my brother. I stood out some time, but at last was persuaded, and signed the indentures when I was yet but twelve years old. I now had access to better books, and often I sat up in my room reading the greatest part of the night."
+    },
+    "D01-C0019": {
+     "id": "D01-C0019",
+     "docId": "D01",
+     "filename": "gutenberg-franklin-autobiography.txt",
+     "page": 17,
+     "text": "Being still a boy, and suspecting that my brother would object to printing anything of mine, I contrived to disguise my hand, and writing an anonymous paper, I put it in at night under the door of the printing house. It was found in the morning and printed. My brother was passionate, and had often beaten me, which I took extremely amiss. At length I sold some of my books to raise a little money, was taken on board privately, and as we had a fair wind, in three days I found myself in New York, near three hundred miles from home, a boy of but seventeen."
+    },
+    "D01-C0024": {
+     "id": "D01-C0024",
+     "docId": "D01",
+     "filename": "gutenberg-franklin-autobiography.txt",
+     "page": 21,
+     "text": "In crossing the bay we met with a squall that tore our rotten sails to pieces, and drove us upon Long Island. On the way a drunken Dutchman, who was a passenger too, fell overboard; when he was sinking, I reached through the water to his shock pate and drew him up, so that we got him in again. We were thirty hours on the water without victuals, or any drink but a bottle of filthy rum. In the evening I found myself very feverish, and went into bed. The next day I proceeded on my journey on foot, having fifty miles to Burlington."
+    },
+    "D01-C0027": {
+     "id": "D01-C0027",
+     "docId": "D01",
+     "filename": "gutenberg-franklin-autobiography.txt",
+     "page": 24,
+     "text": "I went into the bakers shop and asked for bread, and he gave me, as I bade him, three great puffy rolls. I was surprised at the quantity, but took it, and having no room in my pockets, walked off with a roll under each arm, and eating the other. Thus I went up Market Street as far as Fourth Street, passing by the door of Mr. Read, my future wife's father; when she, standing at the door, saw me, and thought I made, as I certainly did, a most awkward, ridiculous appearance."
+    },
+    "D01-C0041": {
+     "id": "D01-C0041",
+     "docId": "D01",
+     "filename": "gutenberg-franklin-autobiography.txt",
+     "page": 38,
+     "text": "The governor, Sir William Keith, promised to give me letters of recommendation to a number of his friends, besides the letter of credit to furnish the money for purchasing the press and types. When we came into the Channel, the captain let me come to the bag of letters; I found none upon which my name was put as under my care. Understanding that he had given me none, I was quite at a loss what to do. I had also spent the money Vernon had entrusted me to collect, which I counted one of the first great errata of my life."
+    },
+    "D01-C0062": {
+     "id": "D01-C0062",
+     "docId": "D01",
+     "filename": "gutenberg-franklin-autobiography.txt",
+     "page": 57,
+     "text": "Our mutual affection was revived, but there were now great objections to our union, the match being thought invalid because a preceding wife of her former husband was said to be living in England. We ventured, however, over all these difficulties, and I took her to wife, September 1st, 1730. None of the inconveniences happened that we had apprehended; she proved a good and faithful helpmate, and assisted me much by attending the shop."
+    },
+    "D01-C0066": {
+     "id": "D01-C0066",
+     "docId": "D01",
+     "filename": "gutenberg-franklin-autobiography.txt",
+     "page": 61,
+     "text": "I should have mentioned before, that in the autumn of the preceding year I had formed most of my ingenious acquaintance into a club of mutual improvement, which we called the Junto; we met on Friday evenings. The rules required that every member, in his turn, should produce one or more queries on any point of morals, politics, or natural philosophy, to be discussed by the company."
+    },
+    "D01-C0078": {
+     "id": "D01-C0078",
+     "docId": "D01",
+     "filename": "gutenberg-franklin-autobiography.txt",
+     "page": 72,
+     "text": "In 1736 I lost one of my sons, a fine boy of four years old, by the smallpox, taken in the common way. I long regretted bitterly, and still regret that I had not given it to him by inoculation. This I mention for the sake of parents who omit that operation, on the supposition that they should never forgive themselves if a child died under it."
+    },
+    "D02-C0011": {
+     "id": "D02-C0011",
+     "docId": "D02",
+     "filename": "morse-benjamin-franklin.txt",
+     "page": 6,
+     "text": "Benjamin Franklin was born in Boston on January 17, 1706, in a house on Milk Street, opposite the Old South Church, where he was baptized on the same day. The house was small and plain, and the family large; the father was a man of sound sense and solid judgment, often consulted by leading people on the affairs of the town and church."
+    },
+    "D02-C0033": {
+     "id": "D02-C0033",
+     "docId": "D02",
+     "filename": "morse-benjamin-franklin.txt",
+     "page": 19,
+     "text": "The boy read whatever came in his way. Bunyan's works, Plutarch's Lives, an essay of Defoe's, and Cotton Mather's Essays to do Good were among the volumes of his childhood. He would later say that a book of the Spectator, found by chance, taught him to write by making him rewrite the essays from memory and compare his versions with the original."
+    },
+    "D02-C0102": {
+     "id": "D02-C0102",
+     "docId": "D02",
+     "filename": "morse-benjamin-franklin.txt",
+     "page": 61,
+     "text": "Franklin had a son, William, born about 1730 to a mother whose name was never disclosed; the boy was taken into the household and raised with Deborah's children. William became royal governor of New Jersey and took the king's side in the Revolution, a break the father never forgave. A daughter, Sarah, called Sally, was born in 1743 and later married Richard Bache."
+    },
+    "D02-C0214": {
+     "id": "D02-C0214",
+     "docId": "D02",
+     "filename": "morse-benjamin-franklin.txt",
+     "page": 118,
+     "text": "In June 1752, he raised a kite of silk, with a pointed wire at its top, into a thunder cloud, and when the fibres of the wet string began to stand erect he presented his knuckle to a key tied at its end and drew a strong spark. The danger was real. In the following summer Professor Richmann of St. Petersburg, repeating a like experiment, was struck dead by a discharge from his apparatus."
+    },
+    "D02-C0219": {
+     "id": "D02-C0219",
+     "docId": "D02",
+     "filename": "morse-benjamin-franklin.txt",
+     "page": 121,
+     "text": "The practical fruit of the discovery was the lightning rod, which within a few years was set up on houses and steeples in many countries. As with his Pennsylvania fireplace of 1742, Franklin declined to take out any patent, holding that as we enjoy great advantages from the inventions of others, we should be glad to serve others by any invention of ours."
+    },
+    "D02-C0402": {
+     "id": "D02-C0402",
+     "docId": "D02",
+     "filename": "morse-benjamin-franklin.txt",
+     "page": 214,
+     "text": "From 1757 to 1775, with one interval at home, he lived in London as agent of Pennsylvania, and later of Georgia, New Jersey and Massachusetts. In December 1776 he arrived in France, where he remained until 1785. There he secured the treaty of alliance of 1778 and joined in negotiating the peace of 1783. The French adored the old philosopher in his plain coat and fur cap."
+    },
+    "D02-C0611": {
+     "id": "D02-C0611",
+     "docId": "D02",
+     "filename": "morse-benjamin-franklin.txt",
+     "page": 331,
+     "text": "He died in Philadelphia on April 17, 1790, at the age of eighty-four years and three months. The funeral was the largest the city had seen; some twenty thousand persons were said to have gathered to watch the procession. He was buried beside his wife in the burial ground of Christ Church."
+    },
+    "D03-C0098": {
+     "id": "D03-C0098",
+     "docId": "D03",
+     "filename": "parton-life-and-times-of-franklin-vol1.pdf",
+     "page": 83,
+     "text": "Poor Richard's Almanack first appeared for the year 1733 and was continued by Franklin for twenty-five years. Its proverbs, many borrowed and sharpened, passed into common speech, and the preface of 1758, afterwards printed alone as The Way to Wealth, was reprinted and translated across Europe."
+    },
+    "D03-C0142": {
+     "id": "D03-C0142",
+     "docId": "D03",
+     "filename": "parton-life-and-times-of-franklin-vol1.pdf",
+     "page": 117,
+     "text": "Out of the Junto came the Library Company, founded in 1731, the mother of subscription libraries in America. To it, in later years, were added the Union Fire Company, an academy which became the University of Pennsylvania, and the Pennsylvania Hospital, each begun by Franklin or carried forward by his pen."
+    },
+    "D03-C0251": {
+     "id": "D03-C0251",
+     "docId": "D03",
+     "filename": "parton-life-and-times-of-franklin-vol1.pdf",
+     "page": 204,
+     "text": "Keimer's printing house was a poor affair: an old shattered press and one small worn-out fount of English. Franklin put the press in order and worked there until the governor's promises drew him away to London. On his return he found Keimer still floundering, and soon set up for himself with Hugh Meredith."
+    },
+    "D04-C0012": {
+     "id": "D04-C0012",
+     "docId": "D04",
+     "filename": "franklin-selected-letters.html",
+     "page": 9,
+     "text": "To Jane Mecom. Dear Sister, I received your kind letter, and rejoice to hear that you and yours are well. You are now the only one left of the family besides myself, and I hope we shall long continue to write to each other as we have done since we were young."
+    },
+    "D04-C0031": {
+     "id": "D04-C0031",
+     "docId": "D04",
+     "filename": "franklin-selected-letters.html",
+     "page": 24,
+     "text": "To George Whatley, Passy, May 23, 1785. I had formerly two pairs of spectacles, which I shifted occasionally, as in travelling I sometimes read, and often wanted to regard the prospects. Finding this change troublesome, I had the glasses cut, and half of each kind associated in the same circle. By this means I have only to move my eyes up or down to see distinctly far or near."
+    },
+    "D04-C0077": {
+     "id": "D04-C0077",
+     "docId": "D04",
+     "filename": "franklin-selected-letters.html",
+     "page": 61,
+     "text": "Mr. President, I confess that there are several parts of this constitution which I do not at present approve, but I am not sure I shall never approve them. On the whole, sir, I cannot help expressing a wish that every member of the convention who may still have objections to it would with me, on this occasion, doubt a little of his own infallibility, and put his name to this instrument."
+    },
+    "D03-C0017": {
+     "id": "D03-C0017",
+     "docId": "D03",
+     "filename": "parton-life-and-times-of-franklin-vol1.pdf",
+     "page": 14,
+     "text": "The Franklins of Ecton were a family of smiths, the eldest son in each generation being bred to that business. Benjamin, writing long after, found the register of the parish church, which showed the births, marriages and burials of the family from 1555, and noted with some pride that he was the youngest son of the youngest son for five generations back."
+    }
+   }
+  },
+  "costUsd": 0.0874,
+  "error": null,
+  "createdAt": "2026-11-24T15:41:02.000Z",
+  "finishedAt": "2026-11-24T15:43:37.000Z"
+ }
+}

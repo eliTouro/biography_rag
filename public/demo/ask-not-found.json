@@ -1,0 +1,53 @@
+{
+ "runId": "r9b20e7f1",
+ "result": {
+  "question": "What did Benjamin Franklin think of the telephone?",
+  "found": false,
+  "answer": "Not in the sources.",
+  "facts": [],
+  "rejected": [],
+  "retrieved": [
+   {
+    "id": "D02-C0219",
+    "rrf": 0.0325,
+    "vecRank": 1,
+    "ftsRank": 2
+   },
+   {
+    "id": "D04-C0031",
+    "rrf": 0.0315,
+    "vecRank": 3,
+    "ftsRank": 4
+   },
+   {
+    "id": "D02-C0214",
+    "rrf": 0.0161,
+    "vecRank": 2,
+    "ftsRank": null
+   }
+  ],
+  "chunks": {
+   "D02-C0219": {
+    "id": "D02-C0219",
+    "docId": "D02",
+    "filename": "morse-benjamin-franklin.txt",
+    "page": 121,
+    "text": "The practical fruit of the discovery was the lightning rod, which within a few years was set up on houses and steeples in many countries. As with his Pennsylvania fireplace of 1742, Franklin declined to take out any patent, holding that as we enjoy great advantages from the inventions of others, we should be glad to serve others by any invention of ours."
+   },
+   "D02-C0214": {
+    "id": "D02-C0214",
+    "docId": "D02",
+    "filename": "morse-benjamin-franklin.txt",
+    "page": 118,
+    "text": "In June 1752, he raised a kite of silk, with a pointed wire at its top, into a thunder cloud, and when the fibres of the wet string began to stand erect he presented his knuckle to a key tied at its end and drew a strong spark. The danger was real. In the following summer Professor Richmann of St. Petersburg, repeating a like experiment, was struck dead by a discharge from his apparatus."
+   },
+   "D04-C0031": {
+    "id": "D04-C0031",
+    "docId": "D04",
+    "filename": "franklin-selected-letters.html",
+    "page": 24,
+    "text": "To George Whatley, Passy, May 23, 1785. I had formerly two pairs of spectacles, which I shifted occasionally, as in travelling I sometimes read, and often wanted to regard the prospects. Finding this change troublesome, I had the glasses cut, and half of each kind associated in the same circle. By this means I have only to move my eyes up or down to see distinctly far or near."
+   }
+  }
+ }
+}

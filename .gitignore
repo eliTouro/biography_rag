@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.local
+.owner-tokens.json
+temporary screenshots/
+.DS_Store
+.claude/

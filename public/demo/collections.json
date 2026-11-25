@@ -1,0 +1,41 @@
+{
+ "collections": [
+  {
+   "id": "c8f3a21e",
+   "person": "Benjamin Franklin",
+   "aliases": [
+    "Ben Franklin",
+    "Poor Richard",
+    "Richard Saunders"
+   ],
+   "documents": 4,
+   "chunks": 1241,
+   "words": 277180,
+   "estPages": 1008,
+   "createdAt": "2026-11-24T15:12:08.000Z"
+  },
+  {
+   "id": "c27be90d",
+   "person": "Ada Lovelace",
+   "aliases": [
+    "Augusta Ada King",
+    "Countess of Lovelace"
+   ],
+   "documents": 3,
+   "chunks": 412,
+   "words": 96120,
+   "estPages": 349,
+   "createdAt": "2026-11-22T10:20:00.000Z"
+  },
+  {
+   "id": "c61f4a03",
+   "person": "Frederick Douglass",
+   "aliases": [],
+   "documents": 5,
+   "chunks": 1530,
+   "words": 342800,
+   "estPages": 1247,
+   "createdAt": "2026-11-19T19:05:00.000Z"
+  }
+ ]
+}

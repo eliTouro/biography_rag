@@ -1,0 +1,46 @@
+{
+  "name": "biography-rag",
+  "version": "1.0.0",
+  "description": "Upload pages about one person; a RAG pipeline writes their story only from retrieved, cited snippets.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --env-file-if-exists=.env --watch server.js",
+    "dev:mock": "node --watch server.js",
+    "test": "node --test \"test/*.test.js\"",
+    "ingest": "node --env-file-if-exists=.env scripts/ingest.mjs",
+    "story": "node --env-file-if-exists=.env scripts/story.mjs",
+    "ask": "node --env-file-if-exists=.env scripts/ask.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliTouro/biography_rag.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/eliTouro/biography_rag/issues"
+  },
+  "homepage": "https://github.com/eliTouro/biography_rag#readme",
+  "dependencies": {
+    "compression": "^1.8.2",
+    "express": "^5.3.0",
+    "mammoth": "^1.13.0",
+    "multer": "^2.5.0",
+    "openai": "^7.64.0",
+    "pg": "^8.23.1",
+    "pino": "^10.4.0",
+    "pino-http": "^11.0.0",
+    "unpdf": "^2.2.2"
+  },
+  "engines": {
+    "node": ">=22.9"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.6.0",
+    "@electric-sql/pglite-pgvector": "^0.1.0"
+  }
+}

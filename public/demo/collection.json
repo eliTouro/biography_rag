@@ -1,0 +1,86 @@
+{
+ "collection": {
+  "id": "c8f3a21e",
+  "person": "Benjamin Franklin",
+  "aliases": [
+   "Ben Franklin",
+   "Poor Richard",
+   "Richard Saunders"
+  ],
+  "createdAt": "2026-11-24T15:12:08.000Z"
+ },
+ "documents": [
+  {
+   "id": "D01",
+   "seq": 1,
+   "filename": "gutenberg-franklin-autobiography.txt",
+   "bytes": 418220,
+   "words": 65180,
+   "estPages": 237,
+   "chunks": 290,
+   "status": "ready",
+   "error": null,
+   "progress": null
+  },
+  {
+   "id": "D02",
+   "seq": 2,
+   "filename": "morse-benjamin-franklin.txt",
+   "bytes": 731904,
+   "words": 119840,
+   "estPages": 436,
+   "chunks": 541,
+   "status": "ready",
+   "error": null,
+   "progress": null
+  },
+  {
+   "id": "D03",
+   "seq": 3,
+   "filename": "parton-life-and-times-of-franklin-vol1.pdf",
+   "bytes": 9184512,
+   "words": 70210,
+   "estPages": 255,
+   "chunks": 312,
+   "status": "ready",
+   "error": null,
+   "progress": null
+  },
+  {
+   "id": "D04",
+   "seq": 4,
+   "filename": "franklin-selected-letters.html",
+   "bytes": 162880,
+   "words": 21950,
+   "estPages": 80,
+   "chunks": 98,
+   "status": "ready",
+   "error": null,
+   "progress": null
+  }
+ ],
+ "totals": {
+  "documents": 4,
+  "chunks": 1241,
+  "words": 277180,
+  "estPages": 1008
+ },
+ "runs": [
+  {
+   "id": "r9b20e7f1",
+   "kind": "ask",
+   "question": "What did Benjamin Franklin think of the telephone?",
+   "status": "done",
+   "createdAt": "2026-11-24T16:02:51.000Z",
+   "costUsd": 0.0031
+  },
+  {
+   "id": "r5d81c0a4",
+   "kind": "story",
+   "question": null,
+   "status": "done",
+   "createdAt": "2026-11-24T15:41:02.000Z",
+   "costUsd": 0.0874
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "runId": "r9b20e7f2",
+ "result": {
+  "question": "How did Franklin show that lightning is electricity?",
+  "found": true,
+  "answer": "In June 1752 he raised a silk kite with a pointed wire into a thunder cloud and drew a strong spark from a key tied to the wet string [D02-C0214]. He then used the discovery for the lightning rod [D02-C0219].",
+  "facts": [
+   {
+    "fact": "Kite experiment of June 1752",
+    "chunkIds": [
+     "D02-C0214"
+    ],
+    "quote": "In June 1752, he raised a kite of silk",
+    "quoteCheck": "exact"
+   },
+   {
+    "fact": "Led to the lightning rod",
+    "chunkIds": [
+     "D02-C0219"
+    ],
+    "quote": "The practical fruit of the discovery was the lightning rod",
+    "quoteCheck": "exact"
+   }
+  ],
+  "rejected": [],
+  "retrieved": [
+   {
+    "id": "D03-C0098",
+    "rrf": 0.0323,
+    "vecRank": 3,
+    "ftsRank": 1
+   },
+   {
+    "id": "D02-C0219",
+    "rrf": 0.0318,
+    "vecRank": 2,
+    "ftsRank": 4
+   },
+   {
+    "id": "D02-C0214",
+    "rrf": 0.0164,
+    "vecRank": 1,
+    "ftsRank": null
+   }
+  ],
+  "chunks": {
+   "D02-C0214": {
+    "id": "D02-C0214",
+    "docId": "D02",
+    "filename": "morse-benjamin-franklin.txt",
+    "page": 118,
+    "text": "In June 1752, he raised a kite of silk, with a pointed wire at its top, into a thunder cloud, and when the fibres of the wet string began to stand erect he presented his knuckle to a key tied at its end and drew a strong spark. The danger was real. In the following summer Professor Richmann of St. Petersburg, repeating a like experiment, was struck dead by a discharge from his apparatus."
+   },
+   "D02-C0219": {
+    "id": "D02-C0219",
+    "docId": "D02",
+    "filename": "morse-benjamin-franklin.txt",
+    "page": 121,
+    "text": "The practical fruit of the discovery was the lightning rod, which within a few years was set up on houses and steeples in many countries. As with his Pennsylvania fireplace of 1742, Franklin declined to take out any patent, holding that as we enjoy great advantages from the inventions of others, we should be glad to serve others by any invention of ours."
+   },
+   "D03-C0098": {
+    "id": "D03-C0098",
+    "docId": "D03",
+    "filename": "parton-life-and-times-of-franklin-vol1.pdf",
+    "page": 83,
+    "text": "Poor Richard's Almanack first appeared for the year 1733 and was continued by Franklin for twenty-five years. Its proverbs, many borrowed and sharpened, passed into common speech, and the preface of 1758, afterwards printed alone as The Way to Wealth, was reprinted and translated across Europe."
+   }
+  }
+ }
+}
